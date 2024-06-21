@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vista2</title>
+</head>
+<body>
+    <div> 
+        <h1>Segundo, formulario</h1>
+        
+        <form action="/Home/RecibirDatosFormulario" method="post">
+            <label>Día</label>
+            <input type="text" name="dia" />
+
+            <br /><br />
+
+            <label>Mes</label>
+            <input type="text" name="mes" />
+
+            <br /><br />
+
+            <label>Año</label>
+            <input type="text" name="anio" />
+
+            <input type="submit" value="Guardar"/>
+
+        </form>
+    </div>
+</body>
+</html>
